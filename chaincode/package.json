@@ -1,0 +1,18 @@
+{
+  "name": "fabric_storage_chaincode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.2"
+  },
+  "devDependencies": {
+    "fabric-shim": "^2.5.2"
+  }
+}
