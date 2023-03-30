@@ -1,5 +1,5 @@
 {
-  "name": "fabric_storage_chaincode",
+  "name": "storage_chaincode",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

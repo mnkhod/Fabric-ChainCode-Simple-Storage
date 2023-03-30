@@ -1,6 +1,6 @@
 'use strict'; 
 
-const simpleContract = require('./lib/storageContract'); 
+const storageContract = require('./lib/storageContract'); 
 
-module.exports.SimpleContract = simpleContract;
-module.exports.contracts = [simpleContract];
+module.exports.StorageContract = storageContract;
+module.exports.contracts = [storageContract];
