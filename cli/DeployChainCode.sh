@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-fabricPath=$PWD/../../../..
-projectPath=$PWD/..
-networkPath=$fabricPath/test-network
-peerCommand=$fabricPath/bin/peer
+source $PWD/GlobalVariables.sh
 
 export FABRIC_CFG_PATH="$fabricPath/config/"
 cd $networkPath
